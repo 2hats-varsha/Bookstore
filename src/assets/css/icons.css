@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../icons/icomoon.eot?drofr6');
-  src:  url('../icons/icomoon.eot?drofr6#iefix') format('embedded-opentype'),
-    url('../icons/icomoon.ttf?drofr6') format('truetype'),
-    url('../icons/icomoon.woff?drofr6') format('woff'),
-    url('../icons/icomoon.svg?drofr6#icomoon') format('svg');
+  src:  url('../icons/icomoon.eot?12ahdk');
+  src:  url('../icons/icomoon.eot?12ahdk#iefix') format('embedded-opentype'),
+    url('../icons/icomoon.ttf?12ahdk') format('truetype'),
+    url('../icons/icomoon.woff?12ahdk') format('woff'),
+    url('../icons/icomoon.svg?12ahdk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,16 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Group:before {
+.icon-download:before {
   content: "\e90d";
 }
-.icon-Vector-2:before {
+.icon-video:before {
   content: "\e90e";
 }
-.icon-time-svgrepo-com-1:before {
+.icon-time:before {
   content: "\e90f";
 }
-.icon-Vector:before {
+.icon-search:before {
   content: "\e910";
-  color: #0f335e;
 }

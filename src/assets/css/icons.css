@@ -1,41 +1,40 @@
 @font-face {
-    font-family: 'icomoon';
-    src:  url('../icons/icomoon.eot?psrmvm');
-    src:  url('../icons/icomoon.eot?psrmvm#iefix') format('embedded-opentype'),
-          url('../icons/icomoon.ttf?psrmvm') format('truetype'),
-          url('../icons/icomoon.woff?psrmvm') format('woff'),
-          url('../icons/icomoon.svg?psrmvm#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  .icon {
-    font-family: 'icomoon' !important;
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .icon-Group:before {
-    content: "\e90d";
-  }
-  .icon-Vector-2:before {
-    content: "\e90e";
-  }
-  .icon-time-svgrepo-com-1:before {
-    content: "\e90f";
-  }
-  .icon-Vector:before {
-    content: "\e910";
-    color: #0f335e;
-  }
-  
+  font-family: 'icomoon';
+  src:  url('../icons/icomoon.eot?drofr6');
+  src:  url('../icons/icomoon.eot?drofr6#iefix') format('embedded-opentype'),
+    url('../icons/icomoon.ttf?drofr6') format('truetype'),
+    url('../icons/icomoon.woff?drofr6') format('woff'),
+    url('../icons/icomoon.svg?drofr6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Group:before {
+  content: "\e90d";
+}
+.icon-Vector-2:before {
+  content: "\e90e";
+}
+.icon-time-svgrepo-com-1:before {
+  content: "\e90f";
+}
+.icon-Vector:before {
+  content: "\e910";
+  color: #0f335e;
+}

@@ -10,12 +10,12 @@
     <body>
         <header class="absolute w-full z-10">
             <div class="container px-35">
-                <div class="inner-header py-12 flex items-center justify-between">
+                <div class="inner-header py-10 flex items-center justify-between">
                     <a href="">
                         <img src="./assets/image/logo-img.svg" alt="Logo image" width="185" height="52">
                     </a>
                     <nav class="ml-auto">
-                        <ul class="flex justify-between items-center gap-8 text-lg font-semibold">
+                        <ul class="flex justify-between items-center gap-8 text-md font-regular">
                             <li>
                                 <a href="#" aria-label="Home">Home</a>
                             </li>
@@ -33,34 +33,158 @@
                             </li>
                         </ul>
                     </nav>
-                    <a href="#" aria-label="Sign in" class="bg-primary text-white py-4 px-14 text-2xl font-semibold rounded-full ml-14">Sign in</a>
+                    <a href="#" aria-label="Sign in" class="bg-primary text-white py-4 px-14 text-lg font-regular rounded-full ml-14">Sign in</a>
                 </div>
             </div>
            
         </header>
-        <section class="home relative bg-[#FDF8EE] h-screen font-roboto"  >
-           
-            <div class="container flex py-40 items-center px-35">
-                <div class="bg absolute top-40 left-20">
-                    <img src="./assets/image/bg.webp"  alt="backgound" width="1700" height="760">
-                </div>
-                <div class="flex items-center mt-[150px]">
-                    <div class="caption  w-full max-w-[586px]">
-                        <h1 class="text-h1 font-roboto font-bold leading-22 tracking-tight">The <span class="text-secondary">Smart</span><br>Choice For <span class="text-secondary">Future</span></h1>
-                        <p class="mt-4 text-gray font-roboto font-regular leading-7 text-xl">Elearn is a global training provider based across the UK that specialises in accredited and bespoke training courses. We crush the...</p>
-                        <form method="post" action="" class="mt-[3.125rem] bg-white p-[20px] rounded-[96px] flex items-center justify-between">
-                            <i class="icon-Vector"></i>
-                            <input type="text" placeholder="Search for a location... " value="" class="placeholder:text-gray-800 font-roboto font-normal leading-7 z-1 pl-14 focus:outline-none border-none">
-                            <button class="bg-primary text-white py-4 px-[30px] text-2xl font-semibold rounded-full">Continue</button>
-                        </form>
+        <section class="home relative bg-[#FDF8EE]  font-roboto pb-[150px]"  >
+            <div class="container py-40  px-35">
+                <div class="row flex items-center">
+                    <div class="bg absolute top-40 left-[65px]">
+                        <img src="./assets/image/bg.webp"  alt="backgound" width="1745" height="760">
                     </div>
-                    <div class="imgContainer w-4xl">
-                        <img src="./assets/image/OBJECTS.webp" alt="objects" width="880" height="543" class="absolute top-56 right-40 z-1">
-                        <img src="./assets/image/Round.webp" class="absolute top-60 right-16" alt="round" width="" height="">
+                    <div class="flex items-center mt-[170px]">
+                        <div class="caption  w-full max-w-[586px]">
+                            <h1 class="text-h1 font-roboto font-bold leading-[86px] tracking-tight">The <span class="text-secondary">Smart</span><br>Choice For <span class="text-secondary">Future</span></h1>
+                            <p class="mt-4 text-gray font-roboto font-regular leading-8 text-md">Elearn is a global training provider based across the UK that specialises in accredited and bespoke training courses. We crush the...</p>
+                            <form method="post" action="" class="mt-[3.125rem] bg-white py-[8px] px-[10px] pl-5 max-w-[560px] max-h-[79px] rounded-[96px] flex items-center justify-between">
+                                <label for="" class="flex items-center">
+                                    <i class="icon-Vector z-10 text-red text-2xl text-blue"></i>
+                                    <input type="text" placeholder="Search for a location... " value="" class="placeholder-blue text-600 font-roboto font-regular text-lg leading-7 z-[11] text-gray pl-2 focus:outline-none border-none">
+                                </label>
+                                
+                                <button class="bg-primary text-white py-4 px-[28px] text-2xl font-roboto font-medium rounded-full">Continue</button>
+                            </form>
+                        </div>
+                        <div class="imgContainer w-4xl">
+                            <img src="./assets/image/OBJECTS.webp" alt="objects" width="840" height="543" class="absolute top-60 transform translate-y-14  translate-x-4  z-10">
+                            <img src="./assets/image/Round.webp" class="absolute top-[14rem] right-[10rem]" alt="round" width="408" height="408">
+                        </div>
                     </div>
                 </div>
-               
+            <div class="banner bg-primary max-h-[270px] h-full max-w-[1400px] rounded-[14px] p-8 absolute -bottom-[8rem] transform -translate-x-1/9" >
+                <ul class="flex items-center justify-between text-white ">
+                    <li class="flex items-center justify-between">
+                        <div>
+                            <img src="../src/assets/image/certification.png" alt="certification">
+                        </div>
+                        <div class="contents">
+                            <span class="font-roboto font-semibold">Learn The Latest Skills</span>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <div class="contents">
+                            <span>Get Ready For a Career</span>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <div class="contents">
+                            <span>Earn a Certificate</span>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
+        </div>
+        </section>
+        
+        <section class="track">
+           <div class="container">
+            <h2>Our Tracks</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing.</p>
+            <div class="cardcontainer">
+                <div class="innercard">
+                    <img src="" alt="">
+                    <div class="mid">
+                        <div class="reviewandsubtitle">
+                            <span>UI/UX Design</span>
+                            <img src="" alt="">
+                        </div>
+                        <h3>UI/UX Design for Beginners</h3>
+                        <span> $98 </span>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li>
+                                <i></i>
+                                <span>22hr 30min</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>34 Courses</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>250 Sales</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="innercard">
+                    <img src="" alt="">
+                    <div class="mid">
+                        <div class="reviewandsubtitle">
+                            <span>UI/UX Design</span>
+                            <img src="" alt="">
+                        </div>
+                        <h3>UI/UX Design for Beginners</h3>
+                        <span> $98 </span>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li>
+                                <i></i>
+                                <span>22hr 30min</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>34 Courses</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>250 Sales</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="innercard">
+                    <img src="" alt="">
+                    <div class="mid">
+                        <div class="reviewandsubtitle">
+                            <span>UI/UX Design</span>
+                            <img src="" alt="">
+                        </div>
+                        <h3>UI/UX Design for Beginners</h3>
+                        <span>$98  </span>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li>
+                                <i></i>
+                                <span>22hr 30min</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>34 Courses</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>250 Sales</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           </div>
         </section>
     </body>
 </html>

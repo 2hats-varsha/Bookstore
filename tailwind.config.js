@@ -12,9 +12,14 @@ module.exports = {
         black: '#000',
         gray: '#707070',
         blue: '#0F335E',
+        darkgray: '#757575',
+        lightgray: '#707070',
+        lightyellow:'#FDF8EE',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
+        jost: ['Jost', 'sans-serif'],
+        poppins:['Poppins', 'sans-serif'],
       },
       fontSize: {
         h1: '4.3125rem',
@@ -110,6 +115,19 @@ module.exports = {
             fontDisplay: 'swap',
             src: "url('../fonts/Roboto-Bold.woff2') format('woff2')",
           },
+          {
+            fontFamily: 'Jost',
+            fontStyle: 'normal',
+            fontWeight: '600',
+            fontDisplay: 'swap',
+            src: "url('../fonts/Jost-SemiBold.woff2') format('woff2')",
+          },
+          {
+            fontFamily:'Poppins',
+            fontStyle:'normal',
+            fontWeight:'500',
+            fontDisplay:'swap',
+            src:"url('../fonts/Poppins-Medium.woff2') format('woff2')"},
          
           {
             fontFamily: 'icomoon',
